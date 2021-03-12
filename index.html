@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<h1 class="text">The Pomodoro Timer!</h1>
+  <div class="description">
+	<p> 25 minute intensive work session - 5 minute break - Repeat 4 times - 25 minute break</p>
+  </div>
+  <div style="text-align:center;" id="ButtonChoices">
+    <button id="Work" class="btn draw-border">Work</button>
+    <button id="Short-Break" class="btn draw-border"> Short Break</button>
+	  <button id="Long-Break" class="btn draw-border">Long Break</button>
+    </div>
+	<div class="tomato-container">
+    <img class="centered" src="tomato.png" alt="tomato"> 
+		<div id="clock" class="timer centered">
+			<p id="mins" style="color: #FFF;"></p>
+			<p id="secs" style="color: #FFF;"></p>
+			<h2 id="end" style="color: #FFF;"></h2>  
+    </div>
+	</div>
+
+	<div style="text-align:center;" id="ButtonControl">
+		<button id="Start" class="btn draw-border">Start</button>
+		<button id="Stop" class="btn draw-border">Stop</button>
+	</div>
+  <footer id="Quote">
+    <h2>Get to Work!</h2>
+  </footer>
+  </body>
+</html>
