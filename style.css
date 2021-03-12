@@ -1,0 +1,112 @@
+.clock{
+    display:inline;
+    text-align:center;
+  }
+  p{
+    display: inline;
+    text-align:center;
+    
+  }
+  h1{
+    text-align:center; 
+  }
+  body {
+      background-color: #FFD0A2
+  }
+  .text{
+    text-align: center;
+    color: #403429;
+    font-size:30px;
+    font-weight: bold;
+    font-family:"Comic Sans MS";
+    
+  }
+  .description{
+    text-align:center;
+    font-size:16px;
+    font-stretch:semi-condensed;
+    font-family:"Monaco";
+  }
+  
+  .tomato-container {
+      width: 60%;
+      height: 510px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .timer {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -120%);
+    font-size:50px;
+    font-weight: bold;
+    font-family:"Comic Sans MS";
+  }
+  
+  #ButtonControl button{
+    background:#9dff4d; 
+    border:1px; 
+    color:#fff; 
+    cursor:pointer; 
+    padding:5px; 
+    width:90px; 
+    margin:10px;
+    font-size:14px;
+    font-stretch:semi-condensed;
+    font-weight: bold;
+    font-family:"Monaco";
+    height :50px;
+    border-radius :12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+  }
+  
+  #ButtonChoices button{
+    background:#9dff4d; 
+    border:1px; 
+    color:#fff; 
+    cursor:pointer; 
+    padding:5px; 
+    width:105px; 
+    margin:10px;
+    font-size:13px;
+    height :50px;
+    border-radius :12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-stretch:semi-condensed;
+    font-family:"Monaco";
+  }
+  
+  #ButtonControl button#Start{
+  background:#0c0;
+  }
+  #ButtonChoices button#Work{
+  background:#2EA713;
+  }
+  #ButtonChoices button#Short-Break{
+  background:#080;
+  }
+  #ButtonChoices button#Long-Break{
+  background:#080;
+  }
+  #ButtonControl button#Stop{
+  background:#f00;
+  }
+  
+  #Quote{
+    text-align:center;
+    font-family:"Comic Sans MS";
+    font-size:18px;
+  }
+  
