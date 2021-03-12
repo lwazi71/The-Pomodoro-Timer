@@ -3,3 +3,6 @@ This is a web based application based on the popular Pomodoro Technique I built 
 
 # Learning Experience
 Understood the basic fundamentals of Javascript, with implementing button fuctions, and timers.
+
+#How to View
+👉 [Live Demo](https://pomodoro.keduseb.repl.co/)
